@@ -1,0 +1,13 @@
+.list-ctx {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.item {
+  flex: 1;
+  margin: 5px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+}

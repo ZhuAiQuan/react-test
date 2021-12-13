@@ -1,0 +1,18 @@
+.ctx {
+  width: 500px;
+  background-color: goldenrod;
+  margin: 0 auto;
+}
+.pad {
+  padding: 5px;
+}
+.child {
+  background-color: greenyellow;
+}
+.grand {
+  background-color: hotpink;
+}
+.last {
+  background-color: indigo;
+  color: #fff;
+}
