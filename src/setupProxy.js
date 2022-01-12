@@ -2,7 +2,7 @@
  * @Description: xingp，yyds
  * @Author: zaq
  * @Date: 2021-12-01 14:46:54
- * @LastEditTime: 2021-12-01 15:57:16
+ * @LastEditTime: 2021-12-23 11:11:49
  * @LastEditors: zaq
  * @Reference: 
  */
@@ -17,7 +17,7 @@ module.exports = function(app) {
       pathRewrite: {'^/api': ''}
     }),
     proxy('/app', {
-      target: 'http://localhost:6000',
+      target: 'http://localhost:3000',
       changeOrigin: true,
       pathRewrite: {'^/app': '' }
     })
